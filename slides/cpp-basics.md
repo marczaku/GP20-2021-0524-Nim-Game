@@ -39,7 +39,7 @@ std::cout << "Hello World!";
 
 ---
 
-## 2. Output with cout
+## 2. Output with cout (`<iostream>`
 ```c++
 cout << "Hello World" << endl;
 int i = 10;
@@ -118,8 +118,8 @@ cout << i << endl;			// Output: 10
 |  (signed int)  |  -2.147.483.648   |  2.147.483.647   |  32  |   
 |  unsigned int  |  0  |  4.294.967.295   |  32  |   
 |  short int  |  -32.768   |  32.767  |  16  |   
-|  (signed) long  |  -2.147.483.648   |  2.147.483.647  |  32  |   
-|  unsigned long  |  0  |  4.294.967.295   |  32  |   
+|  (signed) long  |  -2.147.483.648   |  2.147.483.647  |  64  |   
+|  unsigned long  |  0  |  4.294.967.295   |  64  |   
 |  float  |  3,4E-38  |  3,4E+38  |  32  |   
 |  double  |  1,7E-308  |  1,7E+308  |  64  |   
 |  long double  |  3,4E-4932  |  1,1E+4932  |  80  |   
@@ -138,7 +138,7 @@ cout << „i is “ << i;
 
 ---
 
-## 8. C++ Operators
+## 8. Arithmetic Operators
 
 |  **Character**  |  **Explanation**  |
 |---|---|
@@ -147,13 +147,16 @@ cout << „i is “ << i;
 |  *  |  Multiplication |
 |  /  |  Division |
 |  %  |  Modulo (rest of whole-number division) |
-|  =  |  Assignment |
+|  ++  |  Increment (prefix/postfix) |
+|  --  |  Decrement (prefix/postfix) |
+
+## 8.1 Comparison Operators
+|  **Character**  |  **Explanation**  |
+|---|---|
 |  ==  |  equals |
 |  !=  |  Does not equal |
 |  <, >  |  Smaller than, Greater than |
 |  <=, >=  | Smaller or equals, greater or equals  |
-|  ++  |  Increment (prefix/postfix) |
-|  --  |  Decrement (prefix/postfix) |
 
 
 ---
@@ -183,6 +186,9 @@ cout << „i is “ << i;
 ---
 
 ## 11. Assignment Operators
+
+- Assignment:
+  - `=`
 
 - Combined operators:
   - `+=`
