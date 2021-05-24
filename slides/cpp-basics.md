@@ -95,9 +95,9 @@ int b=20, c=30;
 int i=10;
 {
 	int i=20;
-	cout << i << endl;		// Ausgabe: 20
+	cout << i << endl;		// Output: 20
 }
-cout << i << endl;			// Ausgabe: 10
+cout << i << endl;			// Output: 10
 ```
 - There is one `global scope` (outside all curly braces blocks)
 - Every variable name must be **unique** within its scope
