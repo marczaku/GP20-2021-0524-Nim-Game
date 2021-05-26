@@ -1,3 +1,5 @@
+# Binary Converter
+
 Write a Program that reads (`cin`) decimal Integer numbers (positive only)
 And Oututs the Binary representation of that number: `0b110`
 
