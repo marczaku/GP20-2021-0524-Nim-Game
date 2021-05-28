@@ -347,7 +347,7 @@ you are not professionals! (yet)
 
 ## 20. Switch - 1
 ```c++
-cin << i;
+cin >> i;
 switch(i)
 {
 	case 1: cout << „one“; break;
